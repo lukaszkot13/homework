@@ -1,0 +1,113 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: system-ui;
+  padding-top: 20px;
+}
+
+.logo {
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+.wrapper {
+  display: flex;
+  width: auto;
+  height: auto;
+  min-height: 700px;
+  min-width: 700px;
+  border: 1px solid black;
+}
+
+.form-wrapper {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.image {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./images/gym.jpg);
+}
+
+.social-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #413fb5;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 7px rgba(100, 96, 106, 0.2);
+  border-radius: 5px;
+}
+
+.center {
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-line {
+  height: 1px;
+  background-color: black;
+  width: 25%;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5px 0px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.row input:first-of-type {
+  margin-right: 10px;
+}
+
+input {
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid darkgray;
+}
+
+.consent {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+}
+
+.consent div {
+  margin-left: 5px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #413fb5;
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.a {
+  text-decoration: underline;
+}
